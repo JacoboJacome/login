@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Login } from "./components/Login";
-import { Register } from "./components/Register";
-import { Home } from "./components/Home";
-import { ProtectedRoute } from "./components/ProtectedRoute";
+import { Login } from "./components/Login/Login";
+import { Register } from "./components/Register/Register";
+import { Home } from "./components/Home/Home";
+import { ProtectedRoute } from "./components/Custom/ProtectedRoute";
 
 import { AuthProvider } from "./context/AuthContext";
 
